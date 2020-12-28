@@ -23,25 +23,24 @@ For an academic use of MRO, please cite
 ## Dependencies
 Tested on:
 - Eigen 3.3.4
-sudo apt install libeigen3-dev
+  sudo apt install libeigen3-dev
 
 - SuiteSparse
-sudo apt-get install libsuitesparse-dev
+  sudo apt-get install libsuitesparse-dev
 
 - opencv 4.0.0
-https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/ provides a good guide.
+  https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/ provides a good guide.
 
-sudo apt-get install libboost-all-dev
 - Boost (Filesystem) 1.6.5
+  sudo apt-get install libboost-all-dev
 
 - opengv 1.0.0 (refer to the [official site](https://laurentkneip.github.io/opengv/) for potential installation FAQs)
-
--cd third_party/opengv
--mkdir build
--cd build
--cmake ..
--make 
--cmake -DCMAKE_INSTALL_PREFIX=/path/to/local_install -P cmake_install.cmake 
+  - cd third_party/opengv
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make 
+  - cmake -DCMAKE_INSTALL_PREFIX=/path/to/local_install -P cmake_install.cmake 
 
 ## Compilation
 Finally, to install MRO
@@ -50,11 +49,11 @@ Finally, to install MRO
 
 Then,
 
-cd /dir/to/MRO
-mkdir build
-cd build
-cmake ..
-make 
+- cd /dir/to/MRO
+- mkdir build
+- cd build
+- cmake ..
+- make 
 
 (binary is compiled inside src)
 
