@@ -77,5 +77,10 @@ As seen in demo.sh
 
 - img_height: image height
 
+In /src/IRotAvg.cpp
+- rotavg_win_size : number of nodes that the underlying incremental rotation averaging solver takes in during optimisation
+
+- vg_min_matches : minimum number of feature matches to be considered a pair of frames that are viewing the same scene.
+
 
 
