@@ -35,12 +35,13 @@ sudo apt-get install libboost-all-dev
 - Boost (Filesystem) 1.6.5
 
 - opengv 1.0.0 (refer to the [official site](https://laurentkneip.github.io/opengv/) for potential installation FAQs)
-cd third_party/opengv
-mkdir build
-cd build
-cmake ..
-make 
-cmake -DCMAKE_INSTALL_PREFIX=/path/to/local_install -P cmake_install.cmake 
+
+-cd third_party/opengv
+-mkdir build
+-cd build
+-cmake ..
+-make 
+-cmake -DCMAKE_INSTALL_PREFIX=/path/to/local_install -P cmake_install.cmake 
 
 ## Compilation
 Finally, to install MRO
