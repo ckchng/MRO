@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="opengv" targetName="test_eigensolver_sac" />
+      <config projectName="opengv" targetName="test_multi_noncentral_relative_pose_sac" />
+      <config projectName="opengv" targetName="opengv" />
+      <config projectName="opengv" targetName="test_relative_pose" />
+      <config projectName="opengv" targetName="test_eigensolver" />
+      <config projectName="opengv" targetName="test_relative_pose_sac" />
+      <config projectName="opengv" targetName="test_Sturm" />
+      <config projectName="opengv" targetName="test_point_cloud" />
+      <config projectName="opengv" targetName="random_generators" />
+      <config projectName="opengv" targetName="test_triangulation" />
+      <config projectName="opengv" targetName="test_noncentral_absolute_pose_sac" />
+      <config projectName="opengv" targetName="test_relative_pose_rotationOnly" />
+      <config projectName="opengv" targetName="test_relative_pose_rotationOnly_sac" />
+      <config projectName="opengv" targetName="test_multi_noncentral_absolute_pose_sac" />
+      <config projectName="opengv" targetName="test_absolute_pose" />
+      <config projectName="opengv" targetName="test_noncentral_relative_pose_sac" />
+      <config projectName="opengv" targetName="test_noncentral_absolute_pose" />
+      <config projectName="opengv" targetName="test_noncentral_relative_pose" />
+      <config projectName="opengv" targetName="test_point_cloud_sac" />
+      <config projectName="opengv" targetName="test_absolute_pose_sac" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="255cf20d-7210-4bc2-b8a5-1f5bf0157d4f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/relative_pose/methods.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8130">
+              <caret line="542" column="27" selection-start-line="542" selection-start-column="11" selection-end-line="542" selection-end-column="27" />
+              <folding>
+                <element signature="e#2323#2366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/relative_pose/CentralRelativeAdapter.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/relative_pose/CentralRelativeMultiAdapter.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/relative_pose/CentralRelativeWeightingAdapter.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/relative_pose/NoncentralRelativeAdapter.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/relative_pose/NoncentralRelativeMultiAdapter.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sac_problems/relative_pose/EigensolverSacProblem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#2323#2393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sac_problems/relative_pose/CentralRelativePoseSacProblem.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sac_problems/relative_pose/MultiCentralRelativePoseSacProblem.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/triangulation/methods.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stats</find>
+      <find>latest</find>
+      <find>eigensolver</find>
+      <find>any_motion</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/eigensolver_sac_mod_10K_max.cpp" />
+        <option value="$PROJECT_DIR$/src/relative_pose/modules/eigensolver/modules.cpp" />
+        <option value="$PROJECT_DIR$/src/relative_pose/modules/main.cpp" />
+        <option value="$PROJECT_DIR$/test/test_eigensolver.cpp" />
+        <option value="$PROJECT_DIR$/src/relative_pose/methods.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/sac_problems/relative_pose/EigensolverSacProblem.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="opengv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opengv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opengv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opengv" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opengv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opengv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opengv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opengv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="relative_pose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opengv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opengv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sac_problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opengv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opengv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sac_problems" type="462c0819:PsiDirectoryNode" />
+              <item name="relative_pose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opengv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opengv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="triangulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.opengv">
+    <configuration name="opengv" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="opengv" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="random_generators" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="random_generators" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_Sturm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_Sturm" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_Sturm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_absolute_pose" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_absolute_pose" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_absolute_pose">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_absolute_pose_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_absolute_pose_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_absolute_pose_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_eigensolver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_eigensolver" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_eigensolver">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_eigensolver_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_eigensolver_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_eigensolver_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_multi_noncentral_absolute_pose_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_multi_noncentral_absolute_pose_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_multi_noncentral_absolute_pose_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_multi_noncentral_relative_pose_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_multi_noncentral_relative_pose_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_multi_noncentral_relative_pose_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_noncentral_absolute_pose" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_noncentral_absolute_pose" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_noncentral_absolute_pose">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_noncentral_absolute_pose_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_noncentral_absolute_pose_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_noncentral_absolute_pose_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_noncentral_relative_pose" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_noncentral_relative_pose" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_noncentral_relative_pose">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_noncentral_relative_pose_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_noncentral_relative_pose_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_noncentral_relative_pose_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_point_cloud" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_point_cloud" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_point_cloud">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_point_cloud_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_point_cloud_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_point_cloud_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_relative_pose" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_relative_pose" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_relative_pose">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_relative_pose_rotationOnly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_relative_pose_rotationOnly" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_relative_pose_rotationOnly">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_relative_pose_rotationOnly_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_relative_pose_rotationOnly_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_relative_pose_rotationOnly_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_relative_pose_sac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_relative_pose_sac" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_relative_pose_sac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_triangulation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengv" TARGET_NAME="test_triangulation" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="opengv" RUN_TARGET_NAME="test_triangulation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.opengv" />
+      <item itemvalue="CMake Application.random_generators" />
+      <item itemvalue="CMake Application.test_Sturm" />
+      <item itemvalue="CMake Application.test_absolute_pose" />
+      <item itemvalue="CMake Application.test_absolute_pose_sac" />
+      <item itemvalue="CMake Application.test_eigensolver" />
+      <item itemvalue="CMake Application.test_eigensolver_sac" />
+      <item itemvalue="CMake Application.test_multi_noncentral_absolute_pose_sac" />
+      <item itemvalue="CMake Application.test_multi_noncentral_relative_pose_sac" />
+      <item itemvalue="CMake Application.test_noncentral_absolute_pose" />
+      <item itemvalue="CMake Application.test_noncentral_absolute_pose_sac" />
+      <item itemvalue="CMake Application.test_noncentral_relative_pose" />
+      <item itemvalue="CMake Application.test_noncentral_relative_pose_sac" />
+      <item itemvalue="CMake Application.test_point_cloud" />
+      <item itemvalue="CMake Application.test_point_cloud_sac" />
+      <item itemvalue="CMake Application.test_relative_pose" />
+      <item itemvalue="CMake Application.test_relative_pose_rotationOnly" />
+      <item itemvalue="CMake Application.test_relative_pose_rotationOnly_sac" />
+      <item itemvalue="CMake Application.test_relative_pose_sac" />
+      <item itemvalue="CMake Application.test_triangulation" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="255cf20d-7210-4bc2-b8a5-1f5bf0157d4f" name="Default Changelist" comment="" />
+      <created>1609125422356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609125422356</updated>
+      <workItem from="1609125423497" duration="3345000" />
+      <workItem from="1609134594502" duration="1630000" />
+      <workItem from="1609136273534" duration="809000" />
+      <workItem from="1609139381835" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5794000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1080" height="1920" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64165735" visible="true" weight="0.24371374" />
+      <window_info id="Structure" order="1" sideWeight="0.35834268" side_tool="true" visible="true" weight="0.24371374" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.28182808" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/eigensolver_sac_mod_10K_max.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/modules/fivept_nister/modules.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/absolute_pose/modules/upnp2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6431">
+          <folding>
+            <element signature="e#2322#2371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_eigensolver_sac_stats.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/test_eigensolver_stats.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="283" column="33" selection-start-line="283" selection-start-column="33" selection-end-line="283" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_triangulation.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/triangulation/methods.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/relative_pose/modules/main.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/relative_pose/methods.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/sac/Ransac.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/sac_problems/relative_pose/CentralRelativePoseSacProblem.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-831" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/modules/ge/modules.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/experiment_helpers.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/experiment_helpers.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/random_generators.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/random_generators.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_absolute_pose.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_absolute_pose_sac.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_eigensolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_eigensolver_sac.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_multi_noncentral_absolute_pose_sac.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_multi_noncentral_relative_pose_sac.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_relative_pose_rotationOnly.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_relative_pose.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1716" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/relative_pose/modules/eigensolver/modules.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/sac/implementation/Ransac.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/sac_problems/relative_pose/EigensolverSacProblem.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2730#2778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/OptimizationFunctor.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opengv/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-981" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/modules/eigensolver/modules.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="308" column="74" selection-start-line="308" selection-start-column="74" selection-end-line="308" selection-end-column="74" />
+          <folding>
+            <element signature="e#2323#2386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/modules/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9000">
+          <caret line="618" column="32" selection-start-line="618" selection-start-column="32" selection-end-line="618" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/methods.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8130">
+          <caret line="542" column="27" selection-start-line="542" selection-start-column="11" selection-end-line="542" selection-end-column="27" />
+          <folding>
+            <element signature="e#2323#2366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/CentralRelativeAdapter.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/CentralRelativeMultiAdapter.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/CentralRelativeWeightingAdapter.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/NoncentralRelativeAdapter.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/relative_pose/NoncentralRelativeMultiAdapter.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sac_problems/relative_pose/CentralRelativePoseSacProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sac_problems/relative_pose/MultiCentralRelativePoseSacProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triangulation/methods.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sac_problems/relative_pose/EigensolverSacProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#2323#2393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
